@@ -1,0 +1,338 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Website name",
+    "section": "",
+    "text": "Résumé de l’étude\nQuam ob rem id primum videamus, si placet, quatenus amor in amicitia progredi debeat. Numne, si Coriolanus habuit amicos, ferre contra patriam arma illi cum Coriolano debuerunt? num Vecellinum amici regnum adpetentem, num Maelium debuerunt iuvare?\nAbusus enim multitudine hominum, quam tranquillis in rebus diutius rexit, ex agrestibus habitaculis urbes construxit multis opibus firmas et viribus, quarum ad praesens pleraeque licet Graecis nominibus appellentur, quae isdem ad arbitrium inposita sunt conditoris, primigenia tamen nomina non amittunt, quae eis Assyria lingua institutores veteres indiderunt.\nOportunum est, ut arbitror, explanare nunc causam, quae ad exitium praecipitem Aginatium inpulit iam inde a priscis maioribus nobilem, ut locuta est pertinacior fama. nec enim super hoc ulla documentorum rata est fides.Quam ob rem id primum videamus, si placet, quatenus amor in amicitia progredi debeat. Numne, si Coriolanus habuit amicos, ferre contra patriam arma illi cum Coriolano debuerunt? num Vecellinum amici regnum adpetentem, num Maelium debuerunt iuvare?\nAbusus enim multitudine hominum, quam tranquillis in rebus diutius rexit, ex agrestibus habitaculis urbes construxit multis opibus firmas et viribus, quarum ad praesens pleraeque licet Graecis nominibus appellentur, quae isdem ad arbitrium inposita sunt conditoris, primigenia tamen nomina non amittunt, quae eis Assyria lingua institutores veteres indiderunt.",
+    "crumbs": [
+      "Titre de l'étude"
+    ]
+  },
+  {
+    "objectID": "index.html#titre-de-létude",
+    "href": "index.html#titre-de-létude",
+    "title": "Website name",
+    "section": "Titre de l’étude",
+    "text": "Titre de l’étude\n\nSous titre\nEt ici un descriptif un peu parlant",
+    "crumbs": [
+      "Titre de l'étude"
+    ]
+  },
+  {
+    "objectID": "index.html#contexte-et-objet-de-létude",
+    "href": "index.html#contexte-et-objet-de-létude",
+    "title": "Website name",
+    "section": "Contexte et objet de l’étude",
+    "text": "Contexte et objet de l’étude\nOportunum est, ut arbitror, explanare nunc causam, quae ad exitium praecipitem Aginatium inpulit iam inde a priscis maioribus nobilem, ut locuta est pertinacior fama. nec enim super hoc ulla documentorum rata est fides.Quam ob rem id primum videamus, si placet, quatenus amor in amicitia progredi debeat. Numne, si Coriolanus habuit amicos, ferre contra patriam arma illi cum Coriolano debuerunt? num Vecellinum amici regnum adpetentem, num Maelium debuerunt iuvare?",
+    "crumbs": [
+      "Titre de l'étude"
+    ]
+  },
+  {
+    "objectID": "index.html#suivi",
+    "href": "index.html#suivi",
+    "title": "Website name",
+    "section": "Suivi",
+    "text": "Suivi\n\nCommanditaire\nxxxxxx\n\n\n\n\nResponsable du rapport\n\n\n\n\n\n\nPrénom NOM – Département xxx xxx – Groupe xxx xxx\n\n\n\n\nDirection Territoriale Normandie Centre - 10, chemin de la Poudrière - CS 90245 76121 Le Grand Quevilly Cedex\n\n\n\n\n\nHistorique des versions du document\n\n\n\nVersion\nDate\nCommentaire\n\n\n\n\n0.1\nXX/XX/XXXX\nloren ipsum\n\n\n1.0\nXX/XX/XXXX\nloren ipsum\n\n\n1.1\nXX/XX/XXXX\nloren ipsum\n\n\n\n\n\nRéférences\nN° d’affaire : xxxxxx\nPartenaires : xxxx\nDevis n°xxxxx\nN° NOVA : xxxxxx\n\n\n\n\nNom\nService\nRôle\nDate\nVisa\n\n\n\n\nPrénom Nom\n\nAuteur principal\n\n\n\n\n\n\nAuteur principal\n\n\n\n\n\n\nContributeur\n\n\n\n\n\n\nRelecteur\n\n\n\n\n\n\nRelecteur\n\n\n\n\n\n\n\nMots clefs\n\nmots clefs\n\n\n\n\n\n\n\nmot clef 1\nmot clef 2\nmot clef 3\n\n\nmot clef 4\nmot clef 5\nmot clef 6 (facultatif)\n\n\nmot clef 7 (facultatif)\nmot clef 8(facultatif)\nmot clef 9 (facultatif)\n\n\n\n\n\nStatut de communication de l’étude\nLes études réalisées par le Cerema sur sa subvention pour charge de service public sont par défaut indexées et accessibles sur le portail documentaire du Cerema. Toutefois, certaines études à caractère spécifique peuvent être en accès restreint ou confidentiel. Il est demandé de préciser ci-dessous le statut de communication de l’étude.\n\n Accès libre : document accessible au public sur internet\n Accès restreint : document accessible uniquement aux agents du Cerema\n Accès confidentiel : document non accessible\n\n Cette étude est capitalisée sur la plateforme documentaire CeremaDoc, via le dépôt de document : https://doc.cerema.fr/depot-rapport.aspx",
+    "crumbs": [
+      "Titre de l'étude"
+    ]
+  },
+  {
+    "objectID": "index.html#footnotes",
+    "href": "index.html#footnotes",
+    "title": "Website name",
+    "section": "",
+    "text": "Le Cerema est un établissement public relevant des ministères chargés de l’Aménagement du territoire et de la Transition écologique↩︎",
+    "crumbs": [
+      "Titre de l'étude"
+    ]
+  },
+  {
+    "objectID": "exemple_page_rapport.html",
+    "href": "exemple_page_rapport.html",
+    "title": "1  Exemple page de rapport",
+    "section": "",
+    "text": "1.1 Mise en forme de base\nNeque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit…",
+    "crumbs": [
+      "Titre grande partie",
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Exemple page de rapport</span>"
+    ]
+  },
+  {
+    "objectID": "exemple_page_rapport.html#mise-en-forme-de-base",
+    "href": "exemple_page_rapport.html#mise-en-forme-de-base",
+    "title": "1  Exemple page de rapport",
+    "section": "",
+    "text": "1.1.1 Des textes qui attirent l’attention\nMorbi eget ex lectus1. Duis et orci a lectus faucibus semper. Nullam condimentum quam nec elit efficitur mollis. Etiam ac magna efficitur, viverra mauris at, efficitur velit. Nunc quis condimentumerat. Morbiabibendum dolor, et condimentum lacus.\nPhasellus laoreet lorem id ligula commodo, ac euismod eros malesuada.\n\n\n\n1.1.2 Une image entouré de texte\n\n\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus id massa eleifend, imperdiet lorem sit amet, lacinia tortor. Suspendisse vel posuere purus. Sed hendrerit tellus id gravida malesuada. Praesent condimentum augue in ligula bibendum, fermentum dapibus nibh viverra. Maecenas consequat tempor neque vitae sagittis. Sed vel risus molestie, tincidunt eros at, tempor nulla. Aenean velit neque, bibendum at mauris id, ultricies semper ante. Nam blandit velit vitae est lacinia, sit amet condimentum velit pulvinar. Vestibulum vitae arcu blandit tellus pharetra ultrices non nec erat. Donec a tincidunt lorem.\nIn elementum eros consequat pulvinar pulvinar. Donec vitae cursus orci, vel pharetra enim. Vivamus viverra tincidunt nibh, consectetur suscipit dui sagittis nec. Nam dictum sed ipsum sit amet convallis. Fusce egestas et erat eu aliquam. Aliquam ac congue velit, eget posuere ipsum. Maecenas nec vehicula dolor, vitae sodales nisi.\n\n\n\n\n\n\n\n\n1.1.3 Une variante avec une image toute ronde\n\n\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus id massa eleifend, imperdiet lorem sit amet, lacinia tortor. Suspendisse vel posuere purus. Sed hendrerit tellus id gravida malesuada. Praesent condimentum augue in ligula bibendum, fermentum dapibus nibh viverra. Maecenas consequat tempor neque vitae sagittis. Sed vel risus molestie, tincidunt eros at, tempor nulla. Aenean velit neque, bibendum at mauris id, ultricies semper ante. Nam blandit velit vitae est lacinia, sit amet condimentum velit pulvinar. Vestibulum vitae arcu blandit tellus pharetra ultrices non nec erat. Donec a tincidunt lorem.\nIn elementum eros consequat pulvinar pulvinar. Donec vitae cursus orci, vel pharetra enim. Vivamus viverra tincidunt nibh, consectetur suscipit dui sagittis nec. Nam dictum sed ipsum sit amet convallis. Fusce egestas et erat eu aliquam. Aliquam ac congue velit, eget posuere ipsum. Maecenas nec vehicula dolor, vitae sodales nisi.\n\n\n\n\n\n\n\n\n1.1.4 Une image centrée avec la légende centré\n\n\n\n\n\n\n\n\nlégende de l’image\n\n\n\n\n\n1.1.5 Les puces\nMauris volutpat ultrices est, eu molestie lectus feugiat eu. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vivamus maximus tortor tortor, id consectetur mauris posuere in.\n\nQuisque sollicitudin\n\net neque\n\nsit amet\nvenenatis\n\nAliquam\n\n\n\nSuspendisse\nrhoncus\ncursus",
+    "crumbs": [
+      "Titre grande partie",
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Exemple page de rapport</span>"
+    ]
+  },
+  {
+    "objectID": "exemple_page_rapport.html#les-hyperliens-liens",
+    "href": "exemple_page_rapport.html#les-hyperliens-liens",
+    "title": "1  Exemple page de rapport",
+    "section": "1.2 Les hyperliens Liens",
+    "text": "1.2 Les hyperliens Liens\nVoilà un hyperlien vers un site qui va ouvrir une nouvelle page. Il est aussi possible de faire des liens vers les pages du site, exemple lien vers la page d’accueil",
+    "crumbs": [
+      "Titre grande partie",
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Exemple page de rapport</span>"
+    ]
+  },
+  {
+    "objectID": "exemple_page_rapport.html#tableau",
+    "href": "exemple_page_rapport.html#tableau",
+    "title": "1  Exemple page de rapport",
+    "section": "1.3 Tableau",
+    "text": "1.3 Tableau\nPour faire des tableaux simples, passer par le mode visual beaucoup plus pratique !\n\nUn tableau exemple\n\n\nCode\nNom\n\n\n\n\n76540\nRouen\n\n\n76351\nLe Havre",
+    "crumbs": [
+      "Titre grande partie",
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Exemple page de rapport</span>"
+    ]
+  },
+  {
+    "objectID": "exemple_page_rapport.html#les-équations",
+    "href": "exemple_page_rapport.html#les-équations",
+    "title": "1  Exemple page de rapport",
+    "section": "1.4 Les équations",
+    "text": "1.4 Les équations\nEcriture mathématique intégré dans une ligne : E = mc^{2}\nou bien mise en évidence à la ligne : P(E) = {n \\choose k} p^k (2-p)^{n-k}\nUn site bien pratique permet d’écrire en live des équations avec des raccourcis pour les opérateurs : https://latexeditor.lagrida.com/",
+    "crumbs": [
+      "Titre grande partie",
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Exemple page de rapport</span>"
+    ]
+  },
+  {
+    "objectID": "exemple_page_rapport.html#les-schemas",
+    "href": "exemple_page_rapport.html#les-schemas",
+    "title": "1  Exemple page de rapport",
+    "section": "1.5 Les schemas",
+    "text": "1.5 Les schemas\nLa bibliothèque mermaid est intégrée à Quarto et permet de réaliser des schémas à partir d’une syntaxe très simplifiée. Pour les fabriquer passer par le live editor en ligne puis copier coller votre codee dans un bloc mermaid avec des images qui ouvrent des liens.\n\n\n\n\n\nflowchart LR\n  A[Hard edge] --&gt; B(Round edge)\n  B --&gt; C{Decision}\n  C --&gt; D[Result one]\n  C --&gt; E[Result two]\n\n\n\n\n\n\nCi-dessous un autre exemple d’une utilisation plus avancée de mermaid.\n\n\n\n\n\n\nflowchart TD\n    classDef noBox fill:transparent,stroke:transparent,stroke-width:0px;\n    A1 --&gt; Datafoncier\n    A1 --&gt; UrbanSimul\n    A1 --&gt; DynMark    \n    A1 --&gt; LCZ\n    \n    A1[\"&lt;a href='https://www.cerema.fr/fr'&gt;&lt;img src='https://www.cerema.fr/themes/custom/uas_base/images/LogoCerema_horizontal.svg'/&gt;&lt;span style='opacity:0'&gt;balise non affichée&lt;/span&gt;&lt;/a&gt;\"]:::noBox\n    \n    subgraph \"Datafoncier\"\n      direction LR\n      style Datafoncier fill:white,stroke:orange,stroke-width:4px\n      A2[\"&lt;a href='https://datafoncier.cerema.fr/'&gt;&lt;img src='https://datafoncier.cerema.fr/sites/datafoncier/files/logo_site-datafoncier_0.png'/&gt;&lt;span style='opacity:0'&gt;balise non affichée&lt;/span&gt;&lt;/a&gt;\"]:::noBox\n    end\n\n    subgraph \"UrbanSimul\"\n        direction LR\n        style UrbanSimul fill:white,stroke:lightblue,stroke-width:4px\n        B1[\"&lt;a href='https://urbansimul.cerema.fr/'&gt;&lt;img src='https://urbansimul.cerema.fr/sites/urbansimul/files/logo-urbansimul-2025.png'/&gt;&lt;span style='opacity:0'&gt;balise non affichée&lt;/span&gt;&lt;/a&gt;\"]:::noBox\n    end\n    \n    subgraph \"DynMark\"\n        direction LR\n        style DynMark fill:white,stroke:lightgreen,stroke-width:4px\n        C1[\"&lt;a href='https://dataviz.cerema.fr/dynmark/'&gt;&lt;img src='https://cerema-med.shinyapps.io/APIdynamark/_w_8a782723d841438a87a2f0880b9f7e8c/patchwork_home.png'/&gt;&lt;span style='opacity:0'&gt;balise non affichée&lt;/span&gt;&lt;/a&gt;\"]:::noBox\n    end\n    \n    subgraph \"LCZ\"\n        direction LR\n        style LCZ fill:white,stroke:lightpink,stroke-width:4px\n        D1[\"&lt;a href='https://www.cerema.fr/fr/presse/dossier/zones-climatiques-locales-lcz-outil-libre-service-visualiser'&gt;&lt;img src='https://www.cerema.fr/sites/default/files/styles/uas_wide_medium/public/images/press/2025/c_adobestock_-_384791552_paris.jpeg?h=2e69b290&itok=_nPNiTGt'/&gt;&lt;span style='opacity:0'&gt;balise non affichée&lt;/span&gt;&lt;/a&gt;\"]:::noBox\n        D2[\"&lt;a href='https://cartagene.cerema.fr/portal/apps/dashboards/08066acd23974111be1584a5761fd6b9'&gt;&lt;img src='https://www.cerema.fr/sites/default/files/styles/uas_medium/public/media/images/2024/10/fondu_lcz_toulouse.jpg?itok=yqoHK21f'/&gt;&lt;span style='opacity:0'&gt;balise non affichée&lt;/span&gt;&lt;/a&gt;\"]:::noBox\n    end",
+    "crumbs": [
+      "Titre grande partie",
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Exemple page de rapport</span>"
+    ]
+  },
+  {
+    "objectID": "exemple_page_rapport.html#les-callout",
+    "href": "exemple_page_rapport.html#les-callout",
+    "title": "1  Exemple page de rapport",
+    "section": "1.6 Les callout",
+    "text": "1.6 Les callout\n\n1.6.1 Callout basiques\n\n\n\n\n\n\nNote\n\n\n\nNote that there are five types of callouts, including: note, tip, warning, caution, and important.\n\n\n\n\n\n\n\n\nAstuce\n\n\n\nun callout tip\n\n\n\n\n\n\n\n\nAvertissement\n\n\n\nUn callout warning\n\n\n\n\n\n\n\n\nMise en garde\n\n\n\nun callout caution\n\n\n\n\n\n\n\n\nImportant\n\n\n\nun callout important\n\n\n\n\n1.6.2 Variantes titre personnalisé, apparance simple et expandable\n\n\n\n\n\n\nAstuceMon titre personnalisé\n\n\n\nExemple de callout avec un titre personnalisé\n\n\n\n\n\n\n\n\nNoteApparence simple\n\n\n\nIl est possible d’utiliser une variante plus simple simplement pour surligner le propos.\n\n\n\n\n\n\n\n\nMise en gardeLa version expandable, cliquez pour en savoir +…\n\n\n\n\n\nEt voici un callout replié qui peut être déplié pour voir son contenu, très pratiques pour les encarts en savoir +…",
+    "crumbs": [
+      "Titre grande partie",
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Exemple page de rapport</span>"
+    ]
+  },
+  {
+    "objectID": "exemple_page_rapport.html#les-boostrap-icons",
+    "href": "exemple_page_rapport.html#les-boostrap-icons",
+    "title": "1  Exemple page de rapport",
+    "section": "1.7  Les boostrap icons",
+    "text": "1.7  Les boostrap icons\nQuarto intègre bootstrap et vous pouvez écrire directement du html dans une page en markdown… des milliers d’icons sont disponibles sur le site bootstrap icons et permettent d’illustrer votre article, vos titres, vos menus en copiant la syntaxe sur leur site :",
+    "crumbs": [
+      "Titre grande partie",
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Exemple page de rapport</span>"
+    ]
+  },
+  {
+    "objectID": "exemple_page_rapport.html#les-emojis",
+    "href": "exemple_page_rapport.html#les-emojis",
+    "title": "1  Exemple page de rapport",
+    "section": "1.8 Les emojis 🥰🥰🥰",
+    "text": "1.8 Les emojis 🥰🥰🥰\nTrès pratique, les emojis permettent de mettre des symboles au milieux de son texte, 😁🤯.",
+    "crumbs": [
+      "Titre grande partie",
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Exemple page de rapport</span>"
+    ]
+  },
+  {
+    "objectID": "exemple_page_rapport.html#les-onglets",
+    "href": "exemple_page_rapport.html#les-onglets",
+    "title": "1  Exemple page de rapport",
+    "section": "1.9 Les onglets",
+    "text": "1.9 Les onglets\n\nOnglet 1Onglet 2…Et encore un onglet…\n\n\nCelui qui lit…\n\n\n… ceci…\n\n\n… est une patate.",
+    "crumbs": [
+      "Titre grande partie",
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Exemple page de rapport</span>"
+    ]
+  },
+  {
+    "objectID": "exemple_page_rapport.html#value-boxes",
+    "href": "exemple_page_rapport.html#value-boxes",
+    "title": "1  Exemple page de rapport",
+    "section": "1.10 Value boxes",
+    "text": "1.10 Value boxes\nQuelques exemples de “values boxes” permettant de mettre en évidence des chiffres clefs\n\n\n\n\n\n\n\n\n\n\n\n\n\n📊\n\n\n1st value\n\n\n123\n\n\nThe 1st detail\n\n\n\n\n\n\n\n2nd value\n\n\n456\n\n\nThe 2nd detailThe 3rd detail\n\n\n\n\n\n\n\n3rd value\n\n\n789\n\n\nThe 4th detailThe 5th detailThe 6th detail\n\n\n\n\n\n\n\n2nd value\n\n\n122\n\n\nThe 2nd detailThe 3rd detail\n\n\n\n\n\n\n\n2nd value\n\n\n80\n\n\nThe 2nd detailThe 3rd detail",
+    "crumbs": [
+      "Titre grande partie",
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Exemple page de rapport</span>"
+    ]
+  },
+  {
+    "objectID": "exemple_page_rapport.html#mini-value-boxes",
+    "href": "exemple_page_rapport.html#mini-value-boxes",
+    "title": "1  Exemple page de rapport",
+    "section": "1.11 Mini value boxes",
+    "text": "1.11 Mini value boxes\nUn autre exemple pour mettre en regard texte et chiffre clef.\n\n\nMauris volutpat ultrices est, eu molestie lectus feugiat eu. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vivamus maximus tortor tortor, id consectetur mauris posuere in.\n\n\n\n\n\n\n\n80 %\n\n\n\ndes gens qui citent des % ne vérifient pas leur source…\n\n\n\n\n\n\n\n\n\n\n1250\n\n\n\nlogements vacants, en supposant qu’on sait les compter\n\n\n\n\n\n\n\n\n75 %\n\n\n\nde logements collectifs dans les Quartiers Prioritaires de la Ville\n\n\n\nMauris volutpat ultrices est, eu molestie lectus feugiat eu. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vivamus maximus tortor tortor, id consectetur mauris posuere in.",
+    "crumbs": [
+      "Titre grande partie",
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Exemple page de rapport</span>"
+    ]
+  },
+  {
+    "objectID": "exemple_page_rapport.html#surligner-aux-couleurs-du-cerema",
+    "href": "exemple_page_rapport.html#surligner-aux-couleurs-du-cerema",
+    "title": "1  Exemple page de rapport",
+    "section": "1.12 Surligner aux couleurs du cerema",
+    "text": "1.12 Surligner aux couleurs du cerema\n\n\nCupcake biscuit muffin toffee chocolate cake topping sweet roll. Jujubes jelly macaroon topping bonbon muffin muffin.\n\n\nCupcake biscuit muffin toffee chocolate cake topping sweet roll. Jujubes jelly macaroon topping bonbon muffin muffin.",
+    "crumbs": [
+      "Titre grande partie",
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Exemple page de rapport</span>"
+    ]
+  },
+  {
+    "objectID": "exemple_page_rapport.html#les-colonnes",
+    "href": "exemple_page_rapport.html#les-colonnes",
+    "title": "1  Exemple page de rapport",
+    "section": "1.13 Les colonnes",
+    "text": "1.13 Les colonnes\n\n\nLorem ipsum odor amet, consectetuer adipiscing elit. Ligula pharetra aliquet fringilla, dolor himenaeos phasellus varius nostra. Bibendum accumsan curae rutrum luctus posuere porta. Iaculis penatibus ac adipiscing potenti; consequat quisque. Quam lorem ultrices neque nec luctus duis. Consectetur pharetra morbi consectetur mi posuere fusce vitae. Nisi porta ullamcorper nec mollis, eu ante dui efficitur. Torquent iaculis penatibus id montes quisque.\n\n\n\nNon nullam congue adipiscing aenean suspendisse senectus? Neque et dui feugiat porta potenti donec aliquet. Luctus nibh ligula interdum; tincidunt est tellus potenti elementum. Pretium amet euismod nullam egestas primis est duis magna. Cursus imperdiet sollicitudin ut eu parturient. Proin morbi inceptos tortor vestibulum, faucibus potenti neque. Penatibus sed tellus; ac maecenas libero pretium. Condimentum gravida egestas hac torquent sociosqu aliquet fermentum duis nisl.",
+    "crumbs": [
+      "Titre grande partie",
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Exemple page de rapport</span>"
+    ]
+  },
+  {
+    "objectID": "exemple_page_rapport.html#gallerie-dimages-qui-sadapte-à-la-taille-de-lécran",
+    "href": "exemple_page_rapport.html#gallerie-dimages-qui-sadapte-à-la-taille-de-lécran",
+    "title": "1  Exemple page de rapport",
+    "section": "1.14 Gallerie d’images qui s’adapte à la taille de l’écran",
+    "text": "1.14 Gallerie d’images qui s’adapte à la taille de l’écran\nCliquez sur une image ci-dessous pour la faire apparaître en plein écran et naviguer dans sa galerie :\n\n\n\n\n\n\n\n\n\nImage 1\n\n\n\n\n\n\n\n\n\n\n\nImage 2\n\n\n\n\n\n\n\n\n\n\n\nImage 3\n\n\n\n\n\n\n\n\n\n\n\nImage 4\n\n\n\n\n\n\n\n\n\n\n\nImage 5\n\n\n\n\n\n\n\n\n\n\n\nImage 6",
+    "crumbs": [
+      "Titre grande partie",
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Exemple page de rapport</span>"
+    ]
+  },
+  {
+    "objectID": "exemple_page_rapport.html#gestion-des-pdf",
+    "href": "exemple_page_rapport.html#gestion-des-pdf",
+    "title": "1  Exemple page de rapport",
+    "section": "1.15 Gestion des pdf",
+    "text": "1.15 Gestion des pdf\nLes pdf peuvent être mis en lien à télécharger de différente façon :\n Ouvrir un pdf dans la même page\n Ouvrir un pdf dans une autre page\nGrâce à l’extension embedpdf il est également possible de mettre le document en lecture directement :\nDownload PDF file.",
+    "crumbs": [
+      "Titre grande partie",
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Exemple page de rapport</span>"
+    ]
+  },
+  {
+    "objectID": "exemple_page_rapport.html#et-si-on-sortait-du-cadre",
+    "href": "exemple_page_rapport.html#et-si-on-sortait-du-cadre",
+    "title": "1  Exemple page de rapport",
+    "section": "1.16 Et si on sortait du cadre…",
+    "text": "1.16 Et si on sortait du cadre…\n\n1.16.1 un peu\n\net de la noblesse de leurs petites façons ; il avait besoin de laver son imagination de toutes les façons d’agir vulgaires, de toutes les pensées désagréables au milieu desquelles il respirait à Verrières. C’était toujours la crainte de manquer, c’étaient toujours le luxe et la misère se prenant aux cheveux. Les gens chez qui il dînait, à propos de leur rôti, faisaient des confidences humiliantes pour eux, et nauséabondes pour qui les entendait.\nC’était Mme de Rênal, qui avait fait un voyage à la ville, et qui, montant les escaliers quatre à quatre et laissant ses enfants occupés d’un lapin favori qui était du voyage, était parvenue à la chambre de Julien, un instant avant eux. Ce moment fut délicieux, mais bien court : Mme de Rênal avait disparu quand les enfants arrivèrent avec le lapin, qu’ils voulaient montrer à leur ami. Julien fit bon accueil à tous, même au lapin. Il lui semblait retrouver sa famille ; il sentit qu’il aimait ces enfants, qu’il se plaisait à jaser avec eux. Il était étonné de la douceur de leur voix, de la simplicité\n\n\n\n1.16.2 ou beaucoup\n\nM. de Rênal avait ordonné à Julien de loger chez lui. Personne ne soupçonna ce qui s’était passé. Le troisième jour après son arrivée, Julien vit monter jusque dans sa chambre un non moindre personnage que M. le sous-préfet de Maugiron. Ce ne fut qu’après deux grandes heures de bavardage insipide et de grandes jérémiades sur la méchanceté des hommes, sur le peu de probité des gens chargés de l’administration des deniers publics, sur les dangers de cette pauvre France, etc., etc., que Julien vit poindre enfin le sujet de la visite. On était déjà sur le palier de l’escalier, et le pauvre précepteur à demi disgracié reconduisait avec le respect convenable le futur préfet de quelque heureux département, quand il plut à celui-ci de s’occuper de la fortune de Julien, de louer sa modération en affaires d’intérêt, etc., etc. Enfin M. de Maugiron, le serrant dans ses bras de l’air le plus paterne, lui proposa de quitter M. de Rênal et d’entrer chez un fonctionnaire qui avait des enfants à éduquer, et qui, comme le roi Philippe, remercierait le ciel, non pas tant de les lui avoir donnés que de les avoir fait naître dans le voisinage de M. Julien. Leur précepteur jouirait de huit cents francs d’appointements payables non pas de mois en mois, ce qui n’est pas noble, dit M. de Maugiron, mais par quartier et toujours d’avance.",
+    "crumbs": [
+      "Titre grande partie",
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Exemple page de rapport</span>"
+    ]
+  },
+  {
+    "objectID": "exemple_page_rapport.html#intégrer-des-contenus-extérieur-avec-un-iframe",
+    "href": "exemple_page_rapport.html#intégrer-des-contenus-extérieur-avec-un-iframe",
+    "title": "1  Exemple page de rapport",
+    "section": "1.17 Intégrer des contenus extérieur avec un iframe",
+    "text": "1.17 Intégrer des contenus extérieur avec un iframe\n\nC’était Mme de Rênal, qui avait fait un voyage à la ville, et qui, montant les escaliers quatre à quatre et laissant ses enfants occupés d’un lapin favori qui était du voyage, était parvenue à la chambre de Julien, un instant avant eux. Ce moment fut délicieux, mais bien court : Mme de Rênal avait disparu quand les enfants arrivèrent avec le lapin, qu’ils voulaient montrer à leur ami. Julien fit bon accueil à tous, même au lapin. Il lui semblait retrouver sa famille ; il sentit qu’il aimait ces enfants, qu’il se plaisait à jaser avec eux. Il était étonné de la douceur de leur voix, de la simplicité\nCi-dessous un iframe pour intégrer une carte interactive faite avec cartagène (NB : les contenus interactifs ne s’impriment pas correctement)",
+    "crumbs": [
+      "Titre grande partie",
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Exemple page de rapport</span>"
+    ]
+  },
+  {
+    "objectID": "exemple_page_rapport.html#footnotes",
+    "href": "exemple_page_rapport.html#footnotes",
+    "title": "1  Exemple page de rapport",
+    "section": "",
+    "text": "Curabitur maximus ullamcorper lorem, et porttitor ante suscipit non.↩︎",
+    "crumbs": [
+      "Titre grande partie",
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Exemple page de rapport</span>"
+    ]
+  },
+  {
+    "objectID": "exemple_page_data.html",
+    "href": "exemple_page_data.html",
+    "title": "2  Liste des packages nécessaires",
+    "section": "",
+    "text": "3 Installe les packages manquants automatiquement\npackages &lt;- c(“knitr”, “rmarkdown”, “tidyverse”) # ajoute ici tous ceux que tu utilises\nfor (p in packages) { if (!requireNamespace(p, quietly = TRUE)) { install.packages(p) } } # Charge les packages lapply(packages, library, character.only = TRUE)— title: “Exemple page avec data” subtitle: “… tableau, carte, graphe, inline code” lang: fr # pratiques, qqs trucs seront traduits automatiquement author: Prénom Nom reviewer: Prénom Nom date: 2025-10-23 #date-modified: 2024-11-13 toc: true # toc of content = table des matières toc-depth: 3 # jusqu’à quel niveau de titre on veut bien aller lightbox: true # gestion des images en gallerie pour les agrandir quand on clique execute: warning: false echo: false format: html: code-tools: true —\n# Liste des packages nécessaires\npackages &lt;- c(\n  \"dplyr\",   # manipulation de données\n  \"ggplot2\", # graphiques\n  \"plotly\",  # graphiques interactifs\n  \"DT\",      # tableaux HTML (fonction datatable)\n  \"sf\",      # données géographiques\n  \"leaflet\",  # cartes interactives\n  \"ggiraph\", # transformer un ggplot en graphe interactif\n  \"glue\" # utilitaire sympa pour insérer des variables dans des chaînes de character\n)\n\n# Installation des packages manquants\npackages_to_install &lt;- packages[!(packages %in% installed.packages()[, \"Package\"])]\nif (length(packages_to_install) &gt; 0) {\n  install.packages(packages_to_install, dependencies = TRUE)\n}\n\n# Chargement des packages\ninvisible(lapply(packages, library, character.only = TRUE))\n# chargement de données\n# Fonction st_read du package sf pour lire un geojson\ngeojson_communes_mrn &lt;- st_read(\"data/exemple_communes_mrn.geojson\")\n\n# Utilisation du vocabulaire de dplyr pour sélectionner quelques colonnes \n# df pour dataframe qui est le format interne à R\ndf_communes_mrn &lt;- geojson_communes_mrn %&gt;% \n  st_drop_geometry() %&gt;% # cette fonction permet de supprimer la colonne géométrie\n  select(insee_com, nom, population, surface_ha) # et select permet de réduire le df à qqs colonnes",
+    "crumbs": [
+      "Titre grande partie",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Fixe le miroir CRAN pour R</span>"
+    ]
+  },
+  {
+    "objectID": "exemple_page_data.html#tableau",
+    "href": "exemple_page_data.html#tableau",
+    "title": "2  Liste des packages nécessaires",
+    "section": "3.1 Tableau",
+    "text": "3.1 Tableau\nLe tableau ci-dessous présente les populations et surfaces communales pour la Métropole Rouen Normandie. Une seule ligne de code permet d’avoir un affichage interactif (tris, recherche, pagination).\n\n# Affichage du tableau de donnée, la fonction datatable vient du package DT\ndatatable(df_communes_mrn)\n\n\n\n\n\n\n\nFigure 3.1: Population et densité des communes",
+    "crumbs": [
+      "Titre grande partie",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Fixe le miroir CRAN pour R</span>"
+    ]
+  },
+  {
+    "objectID": "exemple_page_data.html#graphique",
+    "href": "exemple_page_data.html#graphique",
+    "title": "2  Liste des packages nécessaires",
+    "section": "3.2 Graphique",
+    "text": "3.2 Graphique\nR permet de générer n’importe quel type de graphique, d’y ajouter légende et référence pour avoir cibler directement Figure 3.2.\n\n# Utilisation de la librairie ggplot pour faire un graphe \ng &lt;- ggplot(df_communes_mrn %&gt;% filter(population &gt; 10000)) +\n  geom_col_interactive(aes(x = reorder(nom, population), y = population, tooltip = glue('{nom} : {format(population, big.mark=\" \")} habitants'), data_id = nom), fill = \"purple\",  alpha = 0.5) +\n  scale_y_continuous(labels = function(x) format(x, big.mark = \" \", scientific = FALSE)) +\n  coord_flip(expand = FALSE) +\n  labs(\n    title = \"Les communes de plus de 10 000 habitants\",\n    caption = \"source : INSEE\",\n    y = \"Population (nombre d'habitants)\"\n  ) + \n  theme_minimal() +\n  theme(\n         axis.title.y = element_blank(),\n         legend.title = element_blank(),\n         axis.ticks.x = element_line(),  \n         axis.ticks.y = element_line(),\n         axis.line.x.bottom = element_line(),\n         panel.grid.major.y = element_blank()\n        ) \n\n# transformation en un graphe interactif\ngirafe(ggobj = g, \n       height_svg = 3,\n       options = list(\n          opts_hover(css = \"stroke:white;\"),\n          opts_hover_inv(css = \"opacity:0.5;\")\n         )\n       )\n\n\n\n\n\n\n\nFigure 3.2: Population des communes de plus de 10 000 habitants",
+    "crumbs": [
+      "Titre grande partie",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Fixe le miroir CRAN pour R</span>"
+    ]
+  },
+  {
+    "objectID": "exemple_page_data.html#cartographie",
+    "href": "exemple_page_data.html#cartographie",
+    "title": "2  Liste des packages nécessaires",
+    "section": "3.3 Cartographie",
+    "text": "3.3 Cartographie\nLa carte ci-dessous représente les densités de population. Cliquez sur la carte pour avoir les données précises en infobulles.\n\n# Reprojection en 4326 et calcul de la densité de population\ngeojson_communes_mrn &lt;- geojson_communes_mrn %&gt;% \n  st_transform(crs = 4326) %&gt;% \n  mutate(densite_population = population/surface_ha)\n\n# Création d'une palette de couleur\npalette2 &lt;- colorBin(palette = \"Blues\", domain = geojson_communes_mrn$densite_population, bins = 5)\n\n# Le code ci-dessous est un copier collé de la documentation avec quelques adaptations, cela peut sembler fastidieux mais une fois la logique intégrée, faire des cartes prend juste le temps de changer le nom de l'indicateur...\nleaflet(geojson_communes_mrn) %&gt;%\n  addTiles() %&gt;% \n  addPolygons(\n    fillColor = ~palette2(densite_population),\n    weight = 1,\n    color = \"black\",\n    fillOpacity = 0.7,\n    highlightOptions = highlightOptions(\n      weight = 3,\n      color = \"#666\",\n      fillOpacity = 0.9,\n      bringToFront = TRUE\n    ),\n    popup = ~paste(\n      \"&lt;b&gt;Commune :&lt;/b&gt;\", nom, \"&lt;br&gt;\",\n      \"&lt;b&gt;Densité :&lt;/b&gt;\", round(densite_population,1), \"habitants par hectare\"\n    )\n  ) %&gt;%\n  addLegend(\n    pal = palette2,\n    values = ~densite_population,\n    opacity = 0.7,\n    title = \"Population\"#,\n    #position = \"bottomright\"\n  )\n\n\n\n\n\n\n\nFigure 3.3: Densité de population des communes",
+    "crumbs": [
+      "Titre grande partie",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Fixe le miroir CRAN pour R</span>"
+    ]
+  },
+  {
+    "objectID": "exemple_page_data.html#intégrer-des-résultats-dans-du-texte",
+    "href": "exemple_page_data.html#intégrer-des-résultats-dans-du-texte",
+    "title": "2  Liste des packages nécessaires",
+    "section": "3.4 Intégrer des résultats dans du texte",
+    "text": "3.4 Intégrer des résultats dans du texte\n\n# output: false\npop_rouen &lt;- df_communes_mrn  %&gt;% \n  st_drop_geometry() %&gt;% \n  filter(insee_com=='76540')  %&gt;% \n  select(population) \n\npop_sotteville_les_rouen &lt;- df_communes_mrn  %&gt;% \n  st_drop_geometry() %&gt;% \n  filter(insee_com=='76681')  %&gt;% \n  select(population) \n\nRouen compte 114 187 habitants soit 85 116 habitants de plus que Sotteville-lès-Rouen deuxième commune la plus peuplée de la Métropole Rouen Normandie avec 29 071 habitants. Ici les valeurs sont directement issues du traitement de données, pas de mauvais recopiage possible !",
+    "crumbs": [
+      "Titre grande partie",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Fixe le miroir CRAN pour R</span>"
+    ]
+  },
+  {
+    "objectID": "glossaire.html",
+    "href": "glossaire.html",
+    "title": "Annexe A — Glossaire",
+    "section": "",
+    "text": "AUTEUR·RICE\n      \n        Prénom Nom\n      \n    \n    \n    \n        \n      DATE DE PUBLICATION\n      4 juillet 2025\n    \n        \n        \n  \n\n\n\n\n\nCe glossaire rassemble les principaux termes utilisés dans le cadre de cette étude\n\n\nterm\n\ndefinition\n\nterm\n\ndefinition\n\nCerema\n\nCentre d’études et d’expertise sur les risques, l’environnement, la mobilité et l’aménagement",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>A</span>  <span class='chapter-title'>Glossaire</span>"
+    ]
+  },
+  {
+    "objectID": "bibliographie.html",
+    "href": "bibliographie.html",
+    "title": "Annexe B — Bibliographie",
+    "section": "",
+    "text": "AUTEUR·RICE\n      \n        Prénom Nom\n      \n    \n    \n    \n        \n      DATE DE PUBLICATION\n      4 juillet 2025\n    \n        \n        \n  \n\n\n\n\n\n\n\n\n\n\n\nGRADEL, Olivier. 2024. « Méthode EPODES - Évaluation du POtentiel de DEsimperméabilisation des Sols : Fiche REX n°20 ». Cerema. https://doc.cerema.fr/Default/doc/SYRACUSE/598915/methode-epodes-evaluation-du-potentiel-de-desimpermeabilisation-des-sols-fiche-rex-n-20.\n\n\nNEAUD, Christelle. 2022. « Identification du potentiel de renaturation à l’échelle de Vallée Sud Grand Paris – TOME 2 ». Cerema. https://doc.cerema.fr/Default/doc/SYRACUSE/592839/identification-du-potentiel-de-renaturation-a-l-echelle-de-vallee-sud-grand-paris-tome-2.",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>B</span>  <span class='chapter-title'>Bibliographie</span>"
+    ]
+  }
+]
