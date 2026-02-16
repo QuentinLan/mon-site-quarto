@@ -261,45 +261,56 @@
   {
     "objectID": "exemple_page_data.html",
     "href": "exemple_page_data.html",
-    "title": "2  Exemple page avec data",
+    "title": "2  Liste des packages nécessaires",
     "section": "",
-    "text": "2.1 Tableau\nLe tableau ci-dessous présente les populations et surfaces communales pour la Métropole Rouen Normandie. Une seule ligne de code permet d’avoir un affichage interactif (tris, recherche, pagination).\nFigure 2.1: Population et densité des communes",
+    "text": "3 Installe les packages manquants automatiquement\npackages &lt;- c(“knitr”, “rmarkdown”, “tidyverse”) # ajoute ici tous ceux que tu utilises\nfor (p in packages) { if (!requireNamespace(p, quietly = TRUE)) { install.packages(p) } } # Charge les packages lapply(packages, library, character.only = TRUE)— title: “Exemple page avec data” subtitle: “… tableau, carte, graphe, inline code” lang: fr # pratiques, qqs trucs seront traduits automatiquement author: Prénom Nom reviewer: Prénom Nom date: 2025-10-23 #date-modified: 2024-11-13 toc: true # toc of content = table des matières toc-depth: 3 # jusqu’à quel niveau de titre on veut bien aller lightbox: true # gestion des images en gallerie pour les agrandir quand on clique execute: warning: false echo: false format: html: code-tools: true —\n# Liste des packages nécessaires\npackages &lt;- c(\n  \"dplyr\",   # manipulation de données\n  \"ggplot2\", # graphiques\n  \"plotly\",  # graphiques interactifs\n  \"DT\",      # tableaux HTML (fonction datatable)\n  \"sf\",      # données géographiques\n  \"leaflet\",  # cartes interactives\n  \"ggiraph\", # transformer un ggplot en graphe interactif\n  \"glue\" # utilitaire sympa pour insérer des variables dans des chaînes de character\n)\n\n# Installation des packages manquants\npackages_to_install &lt;- packages[!(packages %in% installed.packages()[, \"Package\"])]\nif (length(packages_to_install) &gt; 0) {\n  install.packages(packages_to_install, dependencies = TRUE)\n}\n\n# Chargement des packages\ninvisible(lapply(packages, library, character.only = TRUE))\n# chargement de données\n# Fonction st_read du package sf pour lire un geojson\ngeojson_communes_mrn &lt;- st_read(\"data/exemple_communes_mrn.geojson\")\n\n# Utilisation du vocabulaire de dplyr pour sélectionner quelques colonnes \n# df pour dataframe qui est le format interne à R\ndf_communes_mrn &lt;- geojson_communes_mrn %&gt;% \n  st_drop_geometry() %&gt;% # cette fonction permet de supprimer la colonne géométrie\n  select(insee_com, nom, population, surface_ha) # et select permet de réduire le df à qqs colonnes",
     "crumbs": [
       "Titre grande partie",
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Exemple page avec data</span>"
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Fixe le miroir CRAN pour R</span>"
+    ]
+  },
+  {
+    "objectID": "exemple_page_data.html#tableau",
+    "href": "exemple_page_data.html#tableau",
+    "title": "2  Liste des packages nécessaires",
+    "section": "3.1 Tableau",
+    "text": "3.1 Tableau\nLe tableau ci-dessous présente les populations et surfaces communales pour la Métropole Rouen Normandie. Une seule ligne de code permet d’avoir un affichage interactif (tris, recherche, pagination).\n\n# Affichage du tableau de donnée, la fonction datatable vient du package DT\ndatatable(df_communes_mrn)\n\n\n\n\n\n\n\nFigure 3.1: Population et densité des communes",
+    "crumbs": [
+      "Titre grande partie",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Fixe le miroir CRAN pour R</span>"
     ]
   },
   {
     "objectID": "exemple_page_data.html#graphique",
     "href": "exemple_page_data.html#graphique",
-    "title": "2  Exemple page avec data",
-    "section": "2.2 Graphique",
-    "text": "2.2 Graphique\nR permet de générer n’importe quel type de graphique, d’y ajouter légende et référence pour avoir cibler directement Figure 2.2.\n\n\n\n\n\n\n\n\nFigure 2.2: Population des communes de plus de 10 000 habitants",
+    "title": "2  Liste des packages nécessaires",
+    "section": "3.2 Graphique",
+    "text": "3.2 Graphique\nR permet de générer n’importe quel type de graphique, d’y ajouter légende et référence pour avoir cibler directement Figure 3.2.\n\n# Utilisation de la librairie ggplot pour faire un graphe \ng &lt;- ggplot(df_communes_mrn %&gt;% filter(population &gt; 10000)) +\n  geom_col_interactive(aes(x = reorder(nom, population), y = population, tooltip = glue('{nom} : {format(population, big.mark=\" \")} habitants'), data_id = nom), fill = \"purple\",  alpha = 0.5) +\n  scale_y_continuous(labels = function(x) format(x, big.mark = \" \", scientific = FALSE)) +\n  coord_flip(expand = FALSE) +\n  labs(\n    title = \"Les communes de plus de 10 000 habitants\",\n    caption = \"source : INSEE\",\n    y = \"Population (nombre d'habitants)\"\n  ) + \n  theme_minimal() +\n  theme(\n         axis.title.y = element_blank(),\n         legend.title = element_blank(),\n         axis.ticks.x = element_line(),  \n         axis.ticks.y = element_line(),\n         axis.line.x.bottom = element_line(),\n         panel.grid.major.y = element_blank()\n        ) \n\n# transformation en un graphe interactif\ngirafe(ggobj = g, \n       height_svg = 3,\n       options = list(\n          opts_hover(css = \"stroke:white;\"),\n          opts_hover_inv(css = \"opacity:0.5;\")\n         )\n       )\n\n\n\n\n\n\n\nFigure 3.2: Population des communes de plus de 10 000 habitants",
     "crumbs": [
       "Titre grande partie",
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Exemple page avec data</span>"
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Fixe le miroir CRAN pour R</span>"
     ]
   },
   {
     "objectID": "exemple_page_data.html#cartographie",
     "href": "exemple_page_data.html#cartographie",
-    "title": "2  Exemple page avec data",
-    "section": "2.3 Cartographie",
-    "text": "2.3 Cartographie\nLa carte ci-dessous représente les densités de population. Cliquez sur la carte pour avoir les données précises en infobulles.\n\n\n\n\n\n\n\n\nFigure 2.3: Densité de population des communes",
+    "title": "2  Liste des packages nécessaires",
+    "section": "3.3 Cartographie",
+    "text": "3.3 Cartographie\nLa carte ci-dessous représente les densités de population. Cliquez sur la carte pour avoir les données précises en infobulles.\n\n# Reprojection en 4326 et calcul de la densité de population\ngeojson_communes_mrn &lt;- geojson_communes_mrn %&gt;% \n  st_transform(crs = 4326) %&gt;% \n  mutate(densite_population = population/surface_ha)\n\n# Création d'une palette de couleur\npalette2 &lt;- colorBin(palette = \"Blues\", domain = geojson_communes_mrn$densite_population, bins = 5)\n\n# Le code ci-dessous est un copier collé de la documentation avec quelques adaptations, cela peut sembler fastidieux mais une fois la logique intégrée, faire des cartes prend juste le temps de changer le nom de l'indicateur...\nleaflet(geojson_communes_mrn) %&gt;%\n  addTiles() %&gt;% \n  addPolygons(\n    fillColor = ~palette2(densite_population),\n    weight = 1,\n    color = \"black\",\n    fillOpacity = 0.7,\n    highlightOptions = highlightOptions(\n      weight = 3,\n      color = \"#666\",\n      fillOpacity = 0.9,\n      bringToFront = TRUE\n    ),\n    popup = ~paste(\n      \"&lt;b&gt;Commune :&lt;/b&gt;\", nom, \"&lt;br&gt;\",\n      \"&lt;b&gt;Densité :&lt;/b&gt;\", round(densite_population,1), \"habitants par hectare\"\n    )\n  ) %&gt;%\n  addLegend(\n    pal = palette2,\n    values = ~densite_population,\n    opacity = 0.7,\n    title = \"Population\"#,\n    #position = \"bottomright\"\n  )\n\n\n\n\n\n\n\nFigure 3.3: Densité de population des communes",
     "crumbs": [
       "Titre grande partie",
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Exemple page avec data</span>"
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Fixe le miroir CRAN pour R</span>"
     ]
   },
   {
     "objectID": "exemple_page_data.html#intégrer-des-résultats-dans-du-texte",
     "href": "exemple_page_data.html#intégrer-des-résultats-dans-du-texte",
-    "title": "2  Exemple page avec data",
-    "section": "2.4 Intégrer des résultats dans du texte",
-    "text": "2.4 Intégrer des résultats dans du texte\nRouen compte 114 187 habitants soit 85 116 habitants de plus que Sotteville-lès-Rouen deuxième commune la plus peuplée de la Métropole Rouen Normandie avec 29 071 habitants. Ici les valeurs sont directement issues du traitement de données, pas de mauvais recopiage possible !",
+    "title": "2  Liste des packages nécessaires",
+    "section": "3.4 Intégrer des résultats dans du texte",
+    "text": "3.4 Intégrer des résultats dans du texte\n\n# output: false\npop_rouen &lt;- df_communes_mrn  %&gt;% \n  st_drop_geometry() %&gt;% \n  filter(insee_com=='76540')  %&gt;% \n  select(population) \n\npop_sotteville_les_rouen &lt;- df_communes_mrn  %&gt;% \n  st_drop_geometry() %&gt;% \n  filter(insee_com=='76681')  %&gt;% \n  select(population) \n\nRouen compte 114 187 habitants soit 85 116 habitants de plus que Sotteville-lès-Rouen deuxième commune la plus peuplée de la Métropole Rouen Normandie avec 29 071 habitants. Ici les valeurs sont directement issues du traitement de données, pas de mauvais recopiage possible !",
     "crumbs": [
       "Titre grande partie",
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Exemple page avec data</span>"
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Fixe le miroir CRAN pour R</span>"
     ]
   },
   {

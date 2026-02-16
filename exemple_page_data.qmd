@@ -1,4 +1,18 @@
----
+```{r setup, include=FALSE}
+# Fixe le miroir CRAN pour R
+options(repos = c(CRAN = "https://cloud.r-project.org"))
+```
+# Liste des packages nécessaires
+packages <- c("knitr", "rmarkdown", "tidyverse")  # ajoute ici tous ceux que tu utilises
+
+# Installe les packages manquants automatiquement
+for (p in packages) {
+  if (!requireNamespace(p, quietly = TRUE)) {
+    install.packages(p)
+  }
+}
+# Charge les packages
+lapply(packages, library, character.only = TRUE)---
 title: "Exemple page avec data"
 subtitle: "... tableau, carte, graphe, inline code"
 lang: fr # pratiques, qqs trucs seront traduits automatiquement

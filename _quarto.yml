@@ -3,8 +3,8 @@ project:
   output-dir: _site
 
 book:
-  title: "Website name"
-  author: Prénom nom, prénom, nom
+  title: "Site web personnel"
+  author: Quentin Lançon
   date: 2025-11-05
   back-to-top-navigation: true
   page-navigation: true
