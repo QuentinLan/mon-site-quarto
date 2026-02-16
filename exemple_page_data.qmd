@@ -1,0 +1,176 @@
+---
+title: "Exemple page avec data"
+subtitle: "... tableau, carte, graphe, inline code"
+lang: fr # pratiques, qqs trucs seront traduits automatiquement
+author: Prénom Nom
+reviewer: Prénom Nom
+date: 2025-10-23
+#date-modified: 2024-11-13
+toc: true  # toc of content = table des matières
+toc-depth: 3 # jusqu'à quel niveau de titre on veut bien aller
+lightbox: true # gestion des images en gallerie pour les agrandir quand on clique
+execute: 
+  warning: false
+  echo: false
+format:
+  html:
+    code-tools: true
+---
+
+> Cette page présente des exemples de tableau, graphique, carte et d'intégration directe de résultats dans du texte. L'alternance de blocs de texte et de blocs de code (agrémentés de commentaires) permet d'avoir dans un seul document toutes les étapes de l'analyse.
+
+
+```{r}
+#| output: false
+
+# Liste des packages nécessaires
+packages <- c(
+  "dplyr",   # manipulation de données
+  "ggplot2", # graphiques
+  "plotly",  # graphiques interactifs
+  "DT",      # tableaux HTML (fonction datatable)
+  "sf",      # données géographiques
+  "leaflet",  # cartes interactives
+  "ggiraph", # transformer un ggplot en graphe interactif
+  "glue" # utilitaire sympa pour insérer des variables dans des chaînes de character
+)
+
+# Installation des packages manquants
+packages_to_install <- packages[!(packages %in% installed.packages()[, "Package"])]
+if (length(packages_to_install) > 0) {
+  install.packages(packages_to_install, dependencies = TRUE)
+}
+
+# Chargement des packages
+invisible(lapply(packages, library, character.only = TRUE))
+```
+
+```{r}
+#| output: false
+
+# chargement de données
+# Fonction st_read du package sf pour lire un geojson
+geojson_communes_mrn <- st_read("data/exemple_communes_mrn.geojson")
+
+# Utilisation du vocabulaire de dplyr pour sélectionner quelques colonnes 
+# df pour dataframe qui est le format interne à R
+df_communes_mrn <- geojson_communes_mrn %>% 
+  st_drop_geometry() %>% # cette fonction permet de supprimer la colonne géométrie
+  select(insee_com, nom, population, surface_ha) # et select permet de réduire le df à qqs colonnes
+```
+
+
+## Tableau
+
+Le tableau ci-dessous présente les populations et surfaces communales pour la Métropole Rouen Normandie. Une seule ligne de code permet d'avoir un affichage interactif (tris, recherche, pagination).
+
+```{r}
+#| name: Tableau détail des populations des communes
+#| label: "fig-population-donnees-detail"
+#| fig-cap: "Population et densité des communes"
+
+# Affichage du tableau de donnée, la fonction datatable vient du package DT
+datatable(df_communes_mrn)
+```
+
+## Graphique
+
+R permet de générer n'importe quel type de graphique, d'y ajouter légende et référence pour avoir cibler directement @fig-population-communes-sup-10000-habitants.
+
+```{r}
+#| name: Graphique population communes > 10 000 habitants
+#| label: "fig-population-communes-sup-10000-habitants"
+#| fig-cap: "Population des communes de plus de 10 000 habitants"
+
+# Utilisation de la librairie ggplot pour faire un graphe 
+g <- ggplot(df_communes_mrn %>% filter(population > 10000)) +
+  geom_col_interactive(aes(x = reorder(nom, population), y = population, tooltip = glue('{nom} : {format(population, big.mark=" ")} habitants'), data_id = nom), fill = "purple",  alpha = 0.5) +
+  scale_y_continuous(labels = function(x) format(x, big.mark = " ", scientific = FALSE)) +
+  coord_flip(expand = FALSE) +
+  labs(
+    title = "Les communes de plus de 10 000 habitants",
+    caption = "source : INSEE",
+    y = "Population (nombre d'habitants)"
+  ) + 
+  theme_minimal() +
+  theme(
+         axis.title.y = element_blank(),
+         legend.title = element_blank(),
+         axis.ticks.x = element_line(),  
+         axis.ticks.y = element_line(),
+         axis.line.x.bottom = element_line(),
+         panel.grid.major.y = element_blank()
+        ) 
+
+# transformation en un graphe interactif
+girafe(ggobj = g, 
+       height_svg = 3,
+       options = list(
+          opts_hover(css = "stroke:white;"),
+          opts_hover_inv(css = "opacity:0.5;")
+         )
+       )
+```
+
+## Cartographie
+
+La carte ci-dessous représente les densités de population. Cliquez sur la carte pour avoir les données précises en infobulles.
+
+```{r}
+#| name: Carte densité interactive
+#| label: "fig-carte-densite-communes"
+#| fig-cap: "Densité de population des communes"
+
+# Reprojection en 4326 et calcul de la densité de population
+geojson_communes_mrn <- geojson_communes_mrn %>% 
+  st_transform(crs = 4326) %>% 
+  mutate(densite_population = population/surface_ha)
+
+# Création d'une palette de couleur
+palette2 <- colorBin(palette = "Blues", domain = geojson_communes_mrn$densite_population, bins = 5)
+
+# Le code ci-dessous est un copier collé de la documentation avec quelques adaptations, cela peut sembler fastidieux mais une fois la logique intégrée, faire des cartes prend juste le temps de changer le nom de l'indicateur...
+leaflet(geojson_communes_mrn) %>%
+  addTiles() %>% 
+  addPolygons(
+    fillColor = ~palette2(densite_population),
+    weight = 1,
+    color = "black",
+    fillOpacity = 0.7,
+    highlightOptions = highlightOptions(
+      weight = 3,
+      color = "#666",
+      fillOpacity = 0.9,
+      bringToFront = TRUE
+    ),
+    popup = ~paste(
+      "<b>Commune :</b>", nom, "<br>",
+      "<b>Densité :</b>", round(densite_population,1), "habitants par hectare"
+    )
+  ) %>%
+  addLegend(
+    pal = palette2,
+    values = ~densite_population,
+    opacity = 0.7,
+    title = "Population"#,
+    #position = "bottomright"
+  )
+```
+
+## Intégrer des résultats dans du texte
+
+```{r}
+# output: false
+pop_rouen <- df_communes_mrn  %>% 
+  st_drop_geometry() %>% 
+  filter(insee_com=='76540')  %>% 
+  select(population) 
+
+pop_sotteville_les_rouen <- df_communes_mrn  %>% 
+  st_drop_geometry() %>% 
+  filter(insee_com=='76681')  %>% 
+  select(population) 
+```
+
+**Rouen** compte `{r} pop_rouen %>% format(big.mark = " ")` habitants soit `{r} (pop_rouen - pop_sotteville_les_rouen) %>% format(big.mark = " ")` habitants de plus que Sotteville-lès-Rouen deuxième commune la plus peuplée de la Métropole Rouen Normandie avec `{r} (pop_sotteville_les_rouen) %>% format(big.mark = " ")` habitants. Ici les valeurs sont directement issues du traitement de données, pas de mauvais recopiage possible !
+

@@ -1,0 +1,57 @@
+project:
+  type: book
+  output-dir: _site
+
+book:
+  title: "Website name"
+  author: Prénom nom, prénom, nom
+  date: 2025-11-05
+  sidebar:
+    logo: "images/logo/Logo RF Cerema verticalBR.jpg"
+  #downloads: [pdf, docx]
+  chapters: 
+    - index.qmd
+    - part: "Titre grande partie"
+      chapters:
+        - exemple_page_rapport.qmd
+        - exemple_page_data.qmd
+  appendices: 
+    - glossaire.qmd
+    - bibliographie.qmd
+
+  back-to-top-navigation: true
+  page-navigation: true
+  favicon: "images/logo/favicon.png"
+          
+      
+        
+  page-footer:
+    #left: "Site créé avec [Quarto](https://quarto.org/)"
+    #center: "[©CEREMA](https://www.cerema.fr/fr)"
+    left: "[©CEREMA](https://www.cerema.fr/fr)"
+    right: 
+      - icon: linkedin
+        href: https://fr.linkedin.com/company/cerema
+      - icon: twitter-x 
+        href: https://x.com/ceremacom
+      - icon: youtube
+        href: https://www.youtube.com/@cerema3139      
+
+
+format:
+  html:
+    lang: fr
+    html-math-method: katex
+    theme: [flatly, custom.scss]
+    include-in-header:
+      - text: |
+          <script type="text/javascript" src="js/print_all_tab_expand_collapse.js"></script>
+    template-partials:
+      - _partials/title-block.html
+    toc: true
+    toc-location: right
+    toc-depth: 3
+
+# bibliography: "bibliographie/biblio_zotero.bib"
+
+editor: source

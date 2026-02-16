@@ -1,0 +1,20 @@
+---
+title: "Glossaire"
+lang: fr
+author : "Prénom Nom"
+date : 2025-07-04
+---
+
+> Ce glossaire rassemble les principaux termes utilisés dans le cadre de cette étude
+
+term
+
+:   definition
+
+term
+
+:   definition
+
+Cerema
+
+:   Centre d'études et d'expertise sur les risques, l'environnement, la mobilité et l'aménagement

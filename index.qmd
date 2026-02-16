@@ -1,0 +1,137 @@
+---
+# title: "Titre de l'étude"
+# subtitle: "Sous titre de l'étude"
+lang: fr
+author : "Prénom Nom"
+reviewer: "Prénom nom"
+date : 2025-03-12
+lightbox: true
+resources: 
+  - images/illustration_exemple.png # nécessaire pour que ça soit embarqué pour le background, à adapter !
+---
+
+<!-- 
+Au choix : image style page de garde ou simple titre
+ -->
+
+::::: {.study-header style="background-image: url('images/illustration_exemple.png');"}
+:::: {.study-header-content}
+
+## Titre de l'étude  {.unnumbered .no-anchor}
+### Sous titre {.unnumbered .no-anchor}
+Et ici un descriptif un peu parlant
+::::
+:::::
+
+<!-- la notation {.unnumbered} n'est utile que pour le format book afin de ne pas commencer le chapitrage -->
+
+<!-- 
+Si simple titre, enlever les commentaires
+ -->
+
+<!-- # Titre de l'étude {.unnumbered} -->
+
+<!-- ## Sous titre de l'étude {.unnumbered} -->
+
+> **Le Cerema**[^1], référent public en aménagement, accompagne l’État, les collectivités et les entreprises pour adapter les territoires au changement climatique.\
+> Il joue un rôle clé dans l’élaboration et la mise en œuvre de politiques publiques nationales et de projets territoriaux adaptés au climat de demain dans 6 domaines d’activité : aménagement et stratégies territoriales, bâtiment, mobilités, infrastructures de transport, environnement et risques, mer et littoral.\
+> Avec des équipes multidisciplinaires et 27 implantations sur les territoires de l’Hexagone et des Outre-mer, le Cerema dispose d’une approche globale pour conseiller, innover et fédérer.
+
+[^1]: **Le Cerema est un établissement public relevant des ministères chargés de l’Aménagement du territoire et de la Transition écologique**
+
+{{< pagebreak >}}
+
+## Résumé de l'étude {.unnumbered}
+
+::: img-float
+![](images/illustration_exemple.png "infobulles"){width="200" style="float: left; margin-right: 15px;" loading="lazy"}
+:::
+
+Quam ob rem id primum videamus, si placet, quatenus amor in amicitia progredi debeat. Numne, si Coriolanus habuit amicos, ferre contra patriam arma illi cum Coriolano debuerunt? num Vecellinum amici regnum adpetentem, num Maelium debuerunt iuvare?
+
+Abusus enim multitudine hominum, quam tranquillis in rebus diutius rexit, ex agrestibus habitaculis urbes construxit multis opibus firmas et viribus, quarum ad praesens pleraeque licet Graecis nominibus appellentur, quae isdem ad arbitrium inposita sunt conditoris, primigenia tamen nomina non amittunt, quae eis Assyria lingua institutores veteres indiderunt.
+
+Oportunum est, ut arbitror, explanare nunc causam, quae ad exitium praecipitem Aginatium inpulit iam inde a priscis maioribus nobilem, ut locuta est pertinacior fama. nec enim super hoc ulla documentorum rata est fides.Quam ob rem id primum videamus, si placet, quatenus amor in amicitia progredi debeat. Numne, si Coriolanus habuit amicos, ferre contra patriam arma illi cum Coriolano debuerunt? num Vecellinum amici regnum adpetentem, num Maelium debuerunt iuvare?
+
+Abusus enim multitudine hominum, quam tranquillis in rebus diutius rexit, ex agrestibus habitaculis urbes construxit multis opibus firmas et viribus, quarum ad praesens pleraeque licet Graecis nominibus appellentur, quae isdem ad arbitrium inposita sunt conditoris, primigenia tamen nomina non amittunt, quae eis Assyria lingua institutores veteres indiderunt.
+
+## Contexte et objet de l'étude {.unnumbered}
+
+Oportunum est, ut arbitror, explanare nunc causam, quae ad exitium praecipitem Aginatium inpulit iam inde a priscis maioribus nobilem, ut locuta est pertinacior fama. nec enim super hoc ulla documentorum rata est fides.Quam ob rem id primum videamus, si placet, quatenus amor in amicitia progredi debeat. Numne, si Coriolanus habuit amicos, ferre contra patriam arma illi cum Coriolano debuerunt? num Vecellinum amici regnum adpetentem, num Maelium debuerunt iuvare?
+
+{{< pagebreak >}}
+
+## Suivi {.unnumbered}
+
+### Commanditaire {.unnumbered}
+
+xxxxxx
+
+<!-- Auteur se retrouve en haut de la page de manière plus claire -->
+
+<!-- ### Auteur : xxxxxx -->
+
+### Responsable du rapport {.unnumbered}
+
+| **Prénom NOM –** Département xxx xxx – Groupe xxx xxx |
+|------------------------------------------------------------------------|
+| Direction Territoriale Normandie Centre - 10, chemin de la Poudrière - CS 90245 76121 Le Grand Quevilly Cedex |
+
+: {.table_cerema .hover}
+
+### Historique des versions du document {.unnumbered}
+
+| Version | Date       | Commentaire |
+|---------|------------|-------------|
+| 0.1     | XX/XX/XXXX | loren ipsum |
+| 1.0     | XX/XX/XXXX | loren ipsum |
+| 1.1     | XX/XX/XXXX | loren ipsum |
+
+: {.table_cerema .hover}
+
+### Références {.unnumbered}
+
+N° d’affaire : xxxxxx
+
+Partenaires : xxxx
+
+Devis n°xxxxx
+
+N° NOVA : xxxxxx
+
+<!-- NB : Signature électronique ou initiales uniquement, ne pas mettre de signature manuscrite -->
+
+| Nom        | Service | Rôle                 | Date | Visa |
+|------------|---------|----------------------|------|------|
+| Prénom Nom |         | **Auteur principal** |      |      |
+|            |         | **Auteur principal** |      |      |
+|            |         | Contributeur         |      |      |
+|            |         | Relecteur            |      |      |
+|            |         | Relecteur            |      |      |
+
+: {.table_cerema .hover}
+
+### Mots clefs {.unnumbered}
+
+|                         |                        |                         |
+|-------------------------|------------------------|-------------------------|
+| mot clef 1              | mot clef 2             | mot clef 3              |
+| mot clef 4              | mot clef 5             | mot clef 6 (facultatif) |
+| mot clef 7 (facultatif) | mot clef 8(facultatif) | mot clef 9 (facultatif) |
+: mots clefs {.table_cerema .hover}
+
+### Statut de communication de l’étude {.unnumbered}
+
+Les études réalisées par le Cerema sur sa subvention pour charge de service public sont par défaut indexées et accessibles sur le portail documentaire du Cerema. Toutefois, certaines études à caractère spécifique peuvent être en accès restreint ou confidentiel. Il est demandé de préciser ci-dessous le statut de communication de l’étude.
+
+<!-- Respecter la syntaxe <i class="bi bi-square"></i> et <i class="bi bi-check-square"></i> pour les cases à cocher-->
+
+<i class="bi bi-square"></i> Accès libre : document accessible au public sur internet
+
+<i class="bi bi-check-square"></i> Accès restreint : document accessible uniquement aux agents du Cerema
+
+<i class="bi bi-square"></i> Accès confidentiel : document non accessible
+
+<!-- à ajouter si une version CeremaDoc est faite -->
+
+<br> Cette étude est capitalisée sur la plateforme documentaire [CeremaDoc](https://doc.cerema.fr/Default/accueil-portal.aspx), via le dépôt de document : <https://doc.cerema.fr/depot-rapport.aspx>
